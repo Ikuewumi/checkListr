@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="author" content="Ayobami Ikuewumi">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="An app to manage your tasks for the day!">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;700&family=Overpass:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
+   <link rel="shortcut icon" href="./assets/logo.svg" type="image/svg+xml">
+   <link rel="stylesheet" href="./css/style.css">
+   <script defer src="./js/index.js" type="module"></script>
+   <title>Checklistr</title>
+</head>
+<body>
+   <header>
+      <span>
+         <strong>Check</strong>
+         <svg viewBox="0 0 24 24"><use href="#checkbox"></use></svg>
+         <strong>listr</strong>
+      </span>
+   </header>
+
+
+   <div id="wrapper">
+      <main>
+         
+         <section id="hero">
+
+            <h2>Overview</h2>
+            <div data-bar>
+
+               <div data-data>
+                  <span id="active">0</span>
+                  <small>Active</small>
+               </div>
+               <div data-data>
+                  <span id="done">0</span>
+                  <small>Done</small>
+               </div>
+
+            </div>
+
+         </section>
+
+         <section id="taskform">
+
+            <form>
+               <input id="task" type="text" placeholder="Add new Task">
+               <button>Submit</button>
+            </form>
+
+         </section>
+
+         <section id="tasklist">
+            <small>*Tasks are cleared after about 1 day</small>
+
+            <ul>
+
+               
+
+            </ul>
+
+         </section>
+         
+      </main>
+      
+      <footer>
+         Made by iKAY👋. Contact me at <span>ayobamsik@gmail.com</span>
+      </footer>
+   </div>
+
+
+   <svg style="display: none;">
+   
+      <symbol id="logo" viewBox="0 0 30 30">
+        
+         <path d="M15 3C8.373 3 3 8.373 3 15C3 21.627 8.373 27 15 27C21.627 27 27 21.627 27 15C27 12.820623 26.409997 10.783138 25.394531 9.0214844L14.146484 20.267578C13.959484 20.454578 13.705453 20.560547 13.439453 20.560547C13.174453 20.560547 12.919422 20.455578 12.732422 20.267578L8.2792969 15.814453C7.8882969 15.423453 7.8882969 14.791391 8.2792969 14.400391C8.6702969 14.009391 9.3023594 14.009391 9.6933594 14.400391L13.439453 18.146484L24.240234 7.3457031C22.039234 4.6907031 18.718 3 15 3 z M 24.240234 7.3457031C24.671884 7.8662808 25.053743 8.4300516 25.394531 9.0195312L27.707031 6.7070312C28.098031 6.3150312 28.098031 5.6839688 27.707031 5.2929688C27.316031 4.9019687 26.683969 4.9019688 26.292969 5.2929688L24.240234 7.3457031 z"  />
+
+      </symbol>
+
+      <symbol id="checkbox" viewBox="0 0 24 24">
+
+         <path d="M5 2C3.3545455 2 2 3.3545455 2 5L2 19C2 20.645455 3.3545455 22 5 22L19 22C20.645455 22 22 20.645455 22 19L22 11L20 11L20 19C20 19.554545 19.554545 20 19 20L5 20C4.4454545 20 4 19.554545 4 19L4 5C4 4.4454545 4.4454545 4 5 4L14 4L14 2L5 2 z M 20.472656 3.9140625L11.179688 13.765625L7.5078125 10.09375L6.09375 11.507812L11.220703 16.634766L21.927734 5.2871094L20.472656 3.9140625 z"  />
+
+      </symbol>
+
+      <symbol id="check" viewBox="0 0 182.993 164.156">
+
+         <g id="Group_4" data-name="Group 4" transform="translate(-357 -413)">
+            <path id="tick_box" d="M26.623,2A24.744,24.744,0,0,0,2,26.623v114.91a24.744,24.744,0,0,0,24.623,24.623h114.91a24.744,24.744,0,0,0,24.623-24.623V75.87H149.741v65.663a8.185,8.185,0,0,1-8.208,8.208H26.623a8.184,8.184,0,0,1-8.208-8.208V26.623a8.184,8.184,0,0,1,8.208-8.208h73.87V2Z" transform="translate(355 411)" fill="#6db0c0"/>
+            <path id="Path_2" data-name="Path 2" d="M2186.388,232.783l29.466,47.146,94.292-70.719" transform="translate(-1780.751 738.322) rotate(-13)" fill="none"  stroke-width="15"/>
+         </g>
+
+      </symbol>
+
+      <symbol id="background" viewBox="0 0 905.682 1076.715">
+
+         <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(0)" fill="#e0e0e0">
+            <path d="M0,0,905.682,139.084V937.631L0,1076.715Z" stroke="none"/>
+            <path d="M 904.949462890625 936.8726196289062 L 904.949462890625 139.8426971435547 L 1.331195950508118 1.37815535068512 L 1.331195950508118 1075.337280273438 L 904.949462890625 936.8726196289062 M 905.6821899414062 937.6311645507812 L 0 1076.71533203125 L 0 0 L 905.6821899414062 139.0841369628906 L 905.6821899414062 937.6311645507812 Z" stroke="none" fill="#707070"/>
+          </g>
+          <g id="Group_4" data-name="Group 4" transform="translate(372.977 364.032)">
+            <path id="tick_box" d="M52.122,2.9A49.278,49.278,0,0,0,0,52.3V296.354a49.344,49.344,0,0,0,15.523,36.118,49.165,49.165,0,0,0,36.6,13.279L274.076,333.4a41.987,41.987,0,0,0,17.007-4.7,47.308,47.308,0,0,0,13.8-10.909,51.5,51.5,0,0,0,12.654-33.807V158.66l-28.827-.16V285.108a17.438,17.438,0,0,1-1.14,6.222,16.837,16.837,0,0,1-3.119,5.165,15.5,15.5,0,0,1-4.648,3.593,14.175,14.175,0,0,1-5.729,1.5L52.122,311.466a16.75,16.75,0,0,1-6.681-1.047,16.151,16.151,0,0,1-9.148-8.756,16.857,16.857,0,0,1-1.352-6.67V53.659a16.858,16.858,0,0,1,1.352-6.671,16.15,16.15,0,0,1,9.148-8.755,16.75,16.75,0,0,1,6.681-1.047l146.453,6.52V11.05Z" transform="translate(0)" fill="#5b5b5b"/>
+            <g id="Path_2" data-name="Path 2" transform="translate(66.287 21.518)" fill="none">
+              <path d="M27.6,107.957l77.6,80.064L244.442,13.949" stroke="none"/>
+              <path d="M 106.1877822875977 212.1705169677734 L 94.07591247558594 199.7688903808594 L 15.88357734680176 119.7056579589844 L 39.23080444335938 96.29783630371094 L 104.2163772583008 163.8539886474609 L 233.5140533447266 3.321101665496826 L 255.2866821289062 24.49601745605469 L 117.1410446166992 198.3834228515625 L 106.1877822875977 212.1705169677734 Z" stroke="none" fill="#707070"/>
+            </g>
+          </g>
+
+
+      </symbol>
+   
+   </svg>
+</body>
+</html>

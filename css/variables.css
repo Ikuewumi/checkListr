@@ -1,0 +1,159 @@
+:root {
+   /** Font Family Scale **/
+   --f-sans: 'QuickSand', 'sans-serif';
+   --f-script: 'monospace-custom', 'Fira Mono', 'monospace';
+   --f-serif: 'Playfair Display', 'serif';
+   --f-slab: 'AlexandriaFLF';
+   --f-display: 'Exo 2';
+   --f-display-sans: 'Exo 2', 'sans-seerif';
+   --f-display-wide: 'wide';
+   --f-display-italic: 'Gist', cursive;
+
+
+   /** Colors Scale **/
+   /* Grey Scale */
+   --grey-10: #474747;
+   --grey-20: #616161;
+   --grey-30: #6b6b6b;
+   --grey-40: #808080;
+   --grey-50: #949494;
+   --grey-60: #a6a6a6;
+   --grey-70: #b3b3b3;
+   --grey-80: #cccccc;
+   --grey-90: #e6e6e6;
+   --grey-100: #f7f7f7;
+
+  /* Primary Color Scale */
+  --pri-10: #2e5f6b;
+  --pri-20: #377281;
+  --pri-30: #408596;
+  --pri-40: #4d9eb3;
+  --pri-50: #6db0c0;
+  --pri-60: #7eb9c8;
+  --pri-70: #9bc9d4;
+  --pri-80: #b8d8e0;
+  --pri-90: #dbecf0;
+  --pri-100: #eaf3f6;
+
+  /* Accent Color Scale */
+  --acc-10: #6b3d2e;
+  --acc-20: #884e3a;
+  --acc-30: #ab6249;
+  --acc-40: #bd7b65;
+  --acc-50: #c99482;
+  --acc-60: #d4a99b;
+  --acc-70: #e0c2b8;
+  --acc-80: #e8d1c9;
+  --acc-90: #f0e0db;
+  --acc-100: #f4eae6;
+
+  /* Success(Positive) Color Scale */
+  --pos-10: #3e6a24;
+  --pos-20: #497d2b;
+  --pos-30: #6ab63e;
+  --pos-40: #83c75c;
+  --pos-50: #9ad17a;
+  --pos-60: #aedb95;
+  --pos-70: #c5e5b3;
+  --pos-80: #d4ebc6;
+  --pos-90: #e2f2d9;
+  --pos-100: #ebf6e4;
+
+  /* Failure(Negative) Color Scale */
+  --neg-10: #721d24;
+  --neg-20: #87222a;
+  --neg-30: #c4313d;
+  --neg-40: #d3505b;
+  --neg-50: #db7079;
+  --neg-60: #e28d94;
+  --neg-70: #ebadb3;
+  --neg-80: #f0c2c6;
+  --neg-90: #f5d6d9;
+  --neg-100: #f8e2e4;
+
+   /* Width Scale */
+   --width-10: 4px;
+   --width-20: 8px;
+   --width-30: 12px;
+   --width-40: 16px;
+   --width-50: 24px;
+   --width-60: 48px;
+   --width-70: 64px;
+   --width-80: 96px;
+   --width-100: 128px;
+   --width-110: 192px;
+   --width-120: 256px;
+   --width-130: 384px;
+   --width-140: 512px;
+   --width-150: 640px;
+   --width-160: 768px;
+
+   /** Padding Scale **/
+   --p-10: 0.2rem;
+   --p-20: 0.5rem;
+   --p-30: 1.1rem;
+   --p-40: 1.6rem;
+   --p-50: 2.0rem;
+   --p-60: 2.5rem;
+   --p-70: 2.9rem;
+   --p-80: 3.5rem;
+   --p-90: 4.0rem;
+   --p-100: 4.5rem;
+   --p-110: 5.0rem;
+
+   /** Border Radius Scale **/
+   --br-10: 0.02rem;
+   --br-20: 0.05rem;
+   --br-30: 0.11rem;
+   --br-40: 0.17rem;
+   --br-50: 0.20rem;
+   --br-60: 0.25rem;
+   --br-70: 0.30rem;
+   --br-80: 0.34rem;
+   --br-90: 0.39rem;
+   --br-100: 0.45rem;
+   --br-110: 0.50rem;
+   --br-120: 0.60rem;
+   --br-130: 0.74rem;
+   --br-140: 0.87rem;
+   --br-150: 0.90rem;
+   --br-160: 1.2rem;
+   --br-190: 30%;
+
+   /** TypeScale **/
+   --size-10: 12px;
+   --size-20: 13px;
+   --size-30: 15px;
+   --size-40: 17px;
+   --size-50: 20px;
+   --size-60: 23px;
+   --size-70: 27px;
+   --size-80: 30px;
+   --size-90: 36px;
+   --size-100: 48px;
+   --size-110: 53px;
+   --size-120: 60px;
+   --size-130: 72px;
+
+   /* Weight Scale */
+   --weight-10: 200;
+   --weight-20: 300;
+   --weight-30: 500;
+   --weight-40: 600;
+   --weight-50: 800;
+
+   /* Line Height Scale */
+   --lh-10: 0.9;
+   --lh-20: 1.0;
+   --lh-30: 1.2;
+   --lh-40: 1.5;
+   --lh-50: 1.7;
+
+   /* Z-index Scale */
+   --z-10: 1;
+   --z-20: 2;
+   --z-30: 3;
+   --z-40: 4;
+   --z-50: 6;
+
+}
